@@ -8,6 +8,8 @@ const guests = ['Johnny', 'Matt', 'Fred', 'Amanda', 'Joey', 'Bernardette', 'Clau
 
 const userName = prompt('Come ti chiami?')
 
+
+//Verifico la presenza del nome nella lista
 if (guests.includes(userName)) {
     window.alert('Benvenuto!')
 } else {
