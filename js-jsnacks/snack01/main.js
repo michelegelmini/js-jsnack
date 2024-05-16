@@ -10,6 +10,6 @@ if (firstNumber > secondNumber) {
 else if (firstNumber === secondNumber) {
     console.log('i numeri sono uguali')
 }
-else if ((firstNumber == NaN || secondNumber == NaN)) {
+else if (!(isNaN(firstNumber) || isNaN(secondNumber))) {
     console.log('Non hai inserito due numeri')
 }
